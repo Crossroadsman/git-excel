@@ -1,10 +1,17 @@
 git-excel
 =========
 
+Note: keep an eye on [git-xltrail](https://github.com/xlwings/git-xltrail), a git extension for handling Excel files. 
+It currently only works on Windows.
+
+What it Is
+----------
+
 Tweaks to improve quality of life when using git for Excel version control.
 
-Note: keep an eye on [git-xltrail](https://github.com/xlwings/git-xltrail), a git extension for handling Excel files. 
-This currently only works on Windows.
+Specifically, this currently tells git to treat `xlsx` files as `zip` and then to use `unzip` on these files before 
+performing a diff.
+
 
 
 Installation
